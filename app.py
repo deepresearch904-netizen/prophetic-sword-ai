@@ -72,7 +72,7 @@ if not GEMINI_API_KEY:
 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel(
-    model_name="gemini-3.6-flash",
+    model_name="gemini-3.1-pro",
     system_instruction=PROPHETIC_SWORD_SYSTEM_PROMPT
 )
 
